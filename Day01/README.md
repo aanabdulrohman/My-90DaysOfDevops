@@ -3,7 +3,7 @@
 - Belajar manajemen file (touch, mkdir, echo, cat, dll)
 - Membuat bash script sederhana
 
-## Pembelajaran yang di dapat
+### Pembelajaran yang di dapat
 - Tau bagaimana cara berpindah folder, buat folder dan buat file
 - monitorig resouce device dengan menggunakan top/htop
 - filter kata terntu dengan grep dan power of fipping (|)

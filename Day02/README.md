@@ -23,6 +23,7 @@
 Disini saya membuat sebuah file di `/home/shared_project/rahasia.txt`, di device saya ada dua user yang pertama bernama `aanabdulrohman` dan yang kedua `devops_intern`, disini saya merubah owner file menjadi `devops_intern` menggunakan perintah `sudo chown devops_intern rahasia.txt` dan memberi batasan agar sesuain dengan rule di bawah dengan perintah `sudo chmod 640 rahasia.txt`
 
 ![Rubah owner file](/Day02/image/chown.png "Rubah owner")
+
 lalu setelah itu saya memberi batasan agar:
 - Bisa dibaca dan ditulis oleh **owner**
 - Hanya bisa dibaca oleh **Group**
@@ -31,8 +32,10 @@ lalu setelah itu saya memberi batasan agar:
 Berikut hasil nya: 
 
 User `aanabdulrohman` tidak bisa akses
+
 ![user aan tidak bisa akses](/Day02/image/noaan.png)
 
 User `devops_intern` bisa akses
+
 ![user devops_intern bisa akses](/Day02/image/devops_intern.png)
 
